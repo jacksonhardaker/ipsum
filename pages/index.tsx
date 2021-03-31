@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react'
 
-const options = ['drag', 'mattress', 'kiwi']
+const options = ['kiwi', 'drag']
 
 const Page = () => {
   const [optionsRef, paragraphsRef, textAreaRef] = [useRef(null), useRef(null), useRef(null)]
